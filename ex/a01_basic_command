@@ -1,0 +1,20 @@
+1. 터미널이란 윈도우로 표현하면 ( )와 같은 것으로, 명령어를 입력하면 그래도 수행하면 다른 표현으로 ( )라고 한다.
+answer : cmd, shall
+
+2. 지금 사용 중인 명령어가 어느 디렉토리에 존재하는 지 전체 경로 표시?
+answer : which
+
+3. 리눅스 시스템에 대한 정보를 확인?
+answer : arch, uname -a
+
+4. 현재 로그인하여 사용 중인 로그인명 확인?
+answer : whoami, users, logname
+
+5. 터미날 창에서 실습한 명령어의 목록 확인?
+answer : history
+
+6. 오늘 날짜에 해당하는 달력 출력?
+answer : cal
+
+7. 사용자 계정의 정보를 자세하게 확인?
+answer : finger
