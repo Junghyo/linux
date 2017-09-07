@@ -1,0 +1,11 @@
+hdfs dfs -mkdir /user
+hdfs dfs -mkdir /user/vagrant
+## 입력할 디렉토리.
+hdfs dfs -mkdir /user/vagrant/conf
+## 입력할 디텍토리에 파일을 copy
+cd ~
+[vagrant@master ~]$ hdfs dfs -put hadoop/etc/hadoop/hadoop-env.sh /user/vagrant/conf
+## wordcount 명령 수행
+cd ~/hadoop/share/hadoop/mapreduce
+[vagrant@master mapreduce]$ yarn jar hadoop-mapreduce-examples-2.6.1.jar wordcount conf output
+
